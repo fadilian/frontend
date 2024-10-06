@@ -18,7 +18,7 @@ const saveUser = async (e) =>{
             gender,
             telp
         });
-        navigate("/")
+        navigate("/user")
     } catch (error) {
         console.log(error);
     }
